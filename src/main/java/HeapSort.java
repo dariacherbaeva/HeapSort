@@ -65,20 +65,5 @@ public class HeapSort {
         System.out.println();
     }
 
-    // Driver program
-    public static void main(String args[])
-    {
-        int arr[] = {15, 12, 145, 555, 56, 7};
-        int n = arr.length;
-
-        HeapSort ob = new HeapSort();
-
-        ob.sort(arr);
-
-
-        System.out.println("Sorted array is");
-        printArray(arr);
-
-    }
 }
 
