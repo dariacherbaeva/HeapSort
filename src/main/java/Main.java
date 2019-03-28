@@ -16,10 +16,10 @@ public class Main {
         return arr;
     }
 
-    public static void main (String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
 
-        int n=50;
-        int j=0;
+        int n = 50;
+        int j = 0;
         for (int i = 0; i < 99; i++) {
             System.out.print(n + " ");
             HeapSort hs = new HeapSort();
@@ -28,7 +28,7 @@ public class Main {
             double time2 = System.nanoTime();
             System.out.print(time2 - time1);
             System.out.println("");
-            n=n+50;
+            n = n + 50;
             j++;
         }
     }
